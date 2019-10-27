@@ -1,0 +1,171 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 27px 0;
+}
+
+p {
+  margin: 0;
+  padding: 27px 0;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Promo section */
+
+.logo,
+.site-title {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 32.5px;
+  font-size: 108px;
+}
+
+.site-title {
+  margin-top: -27px;
+  margin-bottom: 45px;
+}
+
+/* Splash section */
+
+.splash {
+  background: #fff6e5;
+  padding-bottom: 36px;
+}
+
+.splash-content {
+  padding: 27px;
+}
+
+/* Buckets section */
+
+.buckets {
+  padding: 36px 27px 27px;
+  background: #3e454c;
+}
+
+.buckets ul {
+  margin: 0;
+  padding: 0;
+}
+
+.buckets li {
+  margin-bottom: 27px;
+  background: white;
+  list-style-type: none;
+}
+
+.bucket {
+  padding: 27px;
+}
+
+/* More section */
+
+.more {
+  padding: 36px;
+}
+
+.more-content {
+  padding: 27px;
+}
+
+/* Twins section */
+
+.sidebar {
+  background: hsl(0, 0%, 90%);
+}
+
+.twin {
+  padding: 36px;
+  background: #2185c5;
+  color: white;
+}
+
+.twin:last-of-type {
+  background: #ff7f66;
+}
+
+.content-title {
+  padding: 0.5em;
+}
+
+/* Colophon section */
+.colophon {
+  padding: 2em;
+  background: hsl(0, 0%, 10%);
+  color: white;
+  text-align: center;
+}
+
+.colophon a {
+  color: white;
+}
+
+.colophon a:hover,
+.colophon a:focus {
+  border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------------------
+Use flex to create a three-bucket layout
+--------------------------------------------------------------*/
+
+.buckets ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buckets li {
+  width: 48%;
+}
+
+/*--------------------------------------------------------------
+Basic responsive layout for all browsers:
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+CSS Grid layout for modern browsers:
+--------------------------------------------------------------*/
