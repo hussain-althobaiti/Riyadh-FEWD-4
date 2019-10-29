@@ -1,5 +1,6 @@
 body {
   margin: 15px;
+  
 }
 
 /* Float container */
@@ -16,7 +17,8 @@ body {
 .box-1, .box-2, .box-3, .box-4 {
   float: left;
   height: 200px;
-  width: 25%;
+  width: 24%;
+  margin: 5px;
 }
 
 .box-1 {
@@ -47,6 +49,7 @@ body {
   color: #fff;
   display: block;
   padding: 15px;
+  margin: 1em;
 }
 
 .google-link:hover {
@@ -58,6 +61,7 @@ body {
   color: #fff;
   display: block;
   padding: 15px;
+  margin: 1em;
 }
 
 .apple-link:visited {
@@ -69,6 +73,7 @@ body {
   color: #fff;
   display: block;
   padding: 15px;
+  margin: 2em;
 }
 
 .nytimes-link:active {
@@ -76,6 +81,7 @@ body {
   color: #fff;
   display: block;
   padding: 15px;
+ 
 }
 
 .first-list li:first-child {

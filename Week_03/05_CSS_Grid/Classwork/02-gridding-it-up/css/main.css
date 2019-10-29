@@ -50,7 +50,7 @@ Exploring flex-direction and justify-content properties
 
 /* Defaults */
 .grid01 {
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
 }
 
 .grid02 {
@@ -85,12 +85,12 @@ Exploring flex-direction and justify-content properties
   Nice!
 */
 .grid05-a {
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 25% 1fr;
   grid-gap: 20px;
 }
 
 .grid05-b {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4,1fr 2fr);
   grid-gap: 20px;
 }
 
