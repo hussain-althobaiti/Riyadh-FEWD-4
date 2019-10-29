@@ -15,7 +15,6 @@
 // // console.log(typeof(flag));
 // // console.log(typeof(num));
 
-// var Age=46;
 
 // // if (age<18){
 // //     console.log("the person can not apply for driving license");
@@ -80,26 +79,58 @@
 // }
 
 // 5%2=1;
-var num =8448544;
+// var num =8448544;
 
-function checkEvenOrOdd(num){
+// function checkEvenOrOdd(num){
 
-    if(num % 2 == 0){
-        console.log("num is even");
-        return true;
-    }
-    else{
-        console.log("num is odd");
-        return false;
-    }
+//     if(num % 2 == 0){
+//         console.log("num is even");
+//         return true;
+//     }
+//     else{
+//         console.log("num is odd");
+//         return false;
+//     }
     
+// }
+
+// var isEven=checkEvenOrOdd(15);
+
+// if(isEven){
+//     console.log("num is even");
+// }
+// else{
+//     console.log("num is odd");
+// }
+
+var Age=46;
+function displayActionBaseOnAge(Age)
+{
+
+    if(Age<16)
+    {
+        console.log("you cannot do much outside of going to school");
+     }
+     else if(18>=Age && Age>=16){
+        console.log("you can drive");
+     }
+     else if(21>=Age && Age>=18){
+        console.log("you can vote");
+     }
+     else if(25>=Age && Age>=21){
+        console.log("you can drink alcohol");
+     }
+     else if(35>=Age && Age>=25){
+        console.log("you can rent a car");
+     }
+     else if(62>=Age && Age>=35){
+        console.log("you can run for president");
+     }
+     else if(Age>=62){
+        console.log("you collect social security benefits");
+     }     
 }
 
-var isEven=checkEvenOrOdd(15);
-
-if(isEven){
-    console.log("num is even");
-}
-else{
-    console.log("num is odd");
-}
+displayActionBaseOnAge(30);
+displayActionBaseOnAge(25);
+displayActionBaseOnAge(65);
