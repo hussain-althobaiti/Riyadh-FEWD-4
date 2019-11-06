@@ -70,7 +70,7 @@ footer{
     justify-content: center;
     border: #00FF41 1px solid;
 }
-input{
+#inputBox{
     text-align: center;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
