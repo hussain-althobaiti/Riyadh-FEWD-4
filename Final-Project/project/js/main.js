@@ -1,0 +1,1 @@
+// $("#startButton").click(href='./index.html')
