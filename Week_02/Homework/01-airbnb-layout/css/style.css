@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  background-color: #F1F1F1;
+}
+.row1 {
+  
+  text-align: center
+}
+.btn {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+.midtext {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+.cont2{
+  display: flex;
+  justify-content: center;
+  background-color: #F1F1F1;
+}
+.btn2 {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
 }

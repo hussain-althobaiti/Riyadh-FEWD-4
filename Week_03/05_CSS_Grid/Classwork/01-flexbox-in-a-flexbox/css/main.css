@@ -38,7 +38,7 @@ div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+ }
 
 .flexbox-second-level {
   border: 5px solid black;
@@ -47,7 +47,7 @@ div {
   height: 300px;
   margin: 5px;
   width: 40%;
-}
+ }
 
 .flexbox-second-level:first-child {
   align-items: flex-end;
@@ -62,7 +62,7 @@ div {
 .flexbox-second-level:nth-child(3) {
   align-items: center;
   justify-content: flex-start;
-}
+ }
 
 .flexbox-second-level:last-child {
   align-items: center;

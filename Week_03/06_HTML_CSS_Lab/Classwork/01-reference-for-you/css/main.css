@@ -73,7 +73,11 @@ body {
   color: #fff;
   display: block;
   padding: 15px;
+<<<<<<< HEAD
   margin: 2em;
+=======
+  margin: 1em;
+>>>>>>> 38ea83a1f2f3fe94f02592040a8c4ffc4cbe8da9
 }
 
 .nytimes-link:active {
