@@ -10,7 +10,8 @@ div {
   padding-bottom: 30px;
 }
 
-.carousel-container, .carousel-item {
+.carousel-container,
+.carousel-item {
   height: 650px;
   width: 100%;
 }

@@ -31,26 +31,17 @@ div {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
 }
-
-.grid-city { 
-
-  display: Grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap:10px;
-  
-  
+.grid-city{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30% ;
+  grid-gap: 15px;
 }
-
-.im { 
+img{
   max-width: 100%;
   display: block;
   height: auto;
-   
- }
-  
-  
-  
- 
+  padding: 20px;
 
 /*
   ##################################
