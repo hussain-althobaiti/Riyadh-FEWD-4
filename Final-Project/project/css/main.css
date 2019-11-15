@@ -54,19 +54,18 @@ footer{
 /* index page start */
 
 .PlayGround{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    text-align: center;
     font-family: 'Courier New';
     border: #00FF41 1px solid;
     margin-bottom:15px;
     background: rgba(0, 0, 0, 0.7);
-    
 }
 
 .inputBox{
     display: flex;
     justify-content: center;
+    align-content: center;
     border: #00FF41 1px solid;
 }
 #mainInputBox{
@@ -77,6 +76,9 @@ footer{
     font-style: bold;
     font-size: 50px;
     color: #00FF41;
-    
+}
+
+#score,#trys{
+    display: inline-block;
 }
 /* index page end */
