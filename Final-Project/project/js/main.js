@@ -1,5 +1,5 @@
 // $("#startButton").click(href='./index.html')
-
+// wordlist https://www.bestwordlist.com/allwords.txt
 var wordlist =[ "go","once","said","where","all","blue","family","she","hold","right","a","three","you","animal","call","brown","father","read","hurt","room"];
 var data="";
 var score =0;
