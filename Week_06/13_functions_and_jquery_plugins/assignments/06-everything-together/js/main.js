@@ -45,7 +45,7 @@ var firstWaypoint = $('#ID-selector').waypoint({
 // Check out the JSON notation for the options
 $('.carousel-container').flickity({
     // options
-    autoPlay: 1000,
+    autoPlay: 2000,
     cellAlign: 'left',
     contain: true,
     setGallerySize: false,

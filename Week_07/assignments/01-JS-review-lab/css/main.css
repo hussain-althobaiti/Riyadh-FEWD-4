@@ -1,1 +1,35 @@
+header{
+    background-color: burlywood;
+    text-align: center;
+    border: black solid 1px;
 
+}
+
+footer{
+    background-color: burlywood;
+    margin: 0px;
+    border: black solid 1px;
+    text-align: center;
+
+
+}
+
+#main{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+
+}
+.column-1{
+    background-color: cornflowerblue;
+    margin: 0px;
+    display: flexbox;
+    
+}
+.column-2{
+    background-color: violet;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    
+}

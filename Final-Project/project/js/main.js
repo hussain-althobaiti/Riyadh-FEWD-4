@@ -2,7 +2,7 @@
 // wordlist https://www.bestwordlist.com/allwords.txt
 var wordlist =[ "go","once","said","where","all","blue","family","she","hold","right","a","three","you","animal","call","brown","father","read","hurt","room"];
 var data="";
-var score =0;
+var score=0;
 var trys=3;
 var word;
 $(document).ready(function(){
@@ -47,4 +47,22 @@ function checktrys(tryCount){
         //trys=3;
         //setInterval() Method
     }
+//timer
+//     var count=30; // global var
+// $(document).ready(function(){
+//     var $input = $("#test"); // catch id 
+        
+//     function countTime(){
+        
+//         count--;
+//         $input.text(count);
+//     }
+
+//     setInterval(countTime,1000)
+
+//     // console.log(0 == "0");
+//     // console.log(0 === "0");
+// })
+
+
 }
