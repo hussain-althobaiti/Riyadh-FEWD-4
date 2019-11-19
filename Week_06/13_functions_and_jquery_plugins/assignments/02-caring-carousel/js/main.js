@@ -8,7 +8,7 @@
 // Check out the JSON notation for the options
 $('.carousel-container').flickity({
   // options
-  autoPlay: 2000,
+  autoPlay: 1000,
   cellAlign: 'left',
   contain: true,
   setGallerySize: false,

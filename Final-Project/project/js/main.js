@@ -33,13 +33,18 @@ $(document).ready(function(){
             }else{
                 trys -=1;
                 $('#trys').html("<h2>trys : "+trys+"</h2>");
+
             };
         }
     });
+    
+    
+});
 
-    if(trys==0){
-        
+function checktrys(tryCount){
+    if(tryCount === 0){
+        //score==0;
+        //trys=3;
+        //setInterval() Method
     }
-
-
- });
+}
