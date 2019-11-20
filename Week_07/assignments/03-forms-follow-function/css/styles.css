@@ -63,7 +63,7 @@ label {
 }
 textarea,
 input[type="text"],
-select {
+select ,.tel {
   border: 1px solid #BCBCBC;
   padding: 6px;
   margin: 0;
@@ -72,7 +72,7 @@ select {
 }
 textarea:focus,
 input[type="text"]:focus,
-select:focus {
+select:focus ,.tel:focus {
   background: white;
   border: 1px solid #99E2FF;
   outline: none;
@@ -83,8 +83,9 @@ input[type="text"] {
   height: 10px;
   margin: 2px 0 0;
 }
-input[type="text"].phone {
+input[type="text"].tel {
   width: 50px;
+
 }
 .address-fields .address-city {
   width: 130px;
@@ -103,3 +104,4 @@ input[type="text"].phone {
 textarea {
   display: block;
 }
+
