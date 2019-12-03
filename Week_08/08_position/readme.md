@@ -17,3 +17,19 @@ By the end of this class, you will:
 * Know how to position objects in the third dimension
 * Use absolute and relative positioning in your documents
 * Make use of z-index when necessary but not too much!
+
+
+| Timing | Type | Topic |
+| --- | --- | --- |
+| 5 min | [Opening](#opening) | Introduction to Responsive Plus and Context |
+| 10 min | [Review](#review) | A Review of Responsive design |
+| 15 min | [CSS Position](#review) | Introduction to Positioning |
+| 20 min | [Codealong](#codealong0) | CSS Position property |
+| 15 min | [z-index](#review) | Introduction to third dimesion |
+| 20 min | [Codealong](#codealong1) | z-index |
+| 20 min | [Lab](#lab1) | Independent Practice |
+| 25 min | [Lab](#lab2)  | Independent Practice |
+| 15 min | [Lab](#codealong2)  | Off canvas menus |
+| 30 min | [Codealong](#codealong3) | Absolute and relative positioning  |
+| 5 min |  [Conclusion](#conclusion)| Final Questions & Exit Tickets |
+
